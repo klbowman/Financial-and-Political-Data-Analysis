@@ -25,9 +25,7 @@ The script prints the analysis to the terminal, and exports a text file with the
 
 ### Technologies Used 
 
-* JavaScript
-* HTML
-* CSS
+* Python
 
 ### Installing
 
