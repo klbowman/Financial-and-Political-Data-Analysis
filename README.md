@@ -19,7 +19,7 @@ The PyPoll directory is designed to count votes and analyze poll results for a s
 - A complete list of candidates who received votes
 - The percentage of votes each candidate won
 - The total number of votes each candidate won
-- The winner of the election based on popular vote.
+- The winner of the election based on popular vote
 
 The script prints the analysis to the terminal, and exports a text file with the results (Analysis/PyPoll_ResultsSummary.txt).
 
