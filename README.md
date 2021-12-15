@@ -30,7 +30,7 @@ The script prints the analysis to the terminal, and exports a text file with the
 ### Installing
 
 * Clone this repository to your desktop.
-* Navitage to the home directory and open index.html in your browser.
+* Navitage to the PyBank or PyPoll directory and run the main.py file.
 
 ### Data Sources
 
