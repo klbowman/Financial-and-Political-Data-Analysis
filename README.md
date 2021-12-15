@@ -1,22 +1,25 @@
 # Financial and Political Data Analysis 
 
-Interactive dashboard that displays charts and text from a JSON file. View the final product [here](https://klbowman.github.io/microbiome-dashboard/).
+Python scripts that analyze CSV datasets. 
 
-## Description
+## PyBank: Financial Data Analysis 
 
-This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
+The PyBank directory is designed to analyze financial records. Budget data (i.e., Date, Profit/Losses) is stored in the Resources directory (budget_data.csv), and the Python script (main.py) calculates the following:
+- The total number of months included in the dataset
+- The net total amount of "Profit/Losses" over the entire period
+- Changes in "Profit/Losses" over the entire period and the average of those changes
+- The greatest increase and decrease in profits (date and amount) over the entire period
+The script prints the analysis to the terminal, and exports a text file with the results (Analysis/PyBank_ResultsSummary.txt).
 
-The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
-* Bar graph displaying the top 10 OTUs by count
-* Gauge plot showing the belly button scrubs per week
-* Bubble plot displaying OTU counts for the entire sample
+## PyPoll: Poll Data Analysis 
 
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
-</p>
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
-</p>
+The PyPoll directory is designed to count votes and analyze poll results for a small town. Poll data (i.e., Voter ID, County, Candidate) is stored in the Resources directory (election_data.csv), and the Python script (main.py) calculates the following:
+- The total number of votes cast
+- A complete list of candidates who received votes
+- The percentage of votes each candidate won
+- The total number of votes each candidate won
+- The winner of the election based on popular vote.
+The script prints the analysis to the terminal, and exports a text file with the results (Analysis/PyPoll_ResultsSummary.txt).
 
 ## Getting Started
 
