@@ -9,6 +9,7 @@ The PyBank directory is designed to analyze financial records. Budget data (i.e.
 - The net total amount of "Profit/Losses" over the entire period
 - Changes in "Profit/Losses" over the entire period and the average of those changes
 - The greatest increase and decrease in profits (date and amount) over the entire period
+
 The script prints the analysis to the terminal, and exports a text file with the results (Analysis/PyBank_ResultsSummary.txt).
 
 ## PyPoll: Poll Data Analysis 
@@ -19,6 +20,7 @@ The PyPoll directory is designed to count votes and analyze poll results for a s
 - The percentage of votes each candidate won
 - The total number of votes each candidate won
 - The winner of the election based on popular vote.
+
 The script prints the analysis to the terminal, and exports a text file with the results (Analysis/PyPoll_ResultsSummary.txt).
 
 ## Getting Started
