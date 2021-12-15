@@ -1,32 +1,46 @@
-# python-challenge
-# Project Description <h1> 
-  This repository contains two separate projects, PyBank and PyPoll.
-  
-  **PyBank** is a python script written to analyze two columns of financial data in a .csv file. The first column of data is dates, and the second column of data is monetary values.  
-  
-  The **PyBank** folder contains:
-  * An *Analysis* folder with a .txt file of summary outputs
-  * A *Resources* folder that contains the budget_data.csv file used in this analysis 
-  * A python file titled *main.py*
-  
-    The *main.py* file in the **PyBank** folder:
-      * Counts the total number of rows in the first column of the csv file
-      * Calculates the difference between two successive rows in a series 
-        * Differences are stored as a new list ("changes")
-        * The average, and maximum and minimum values are determed from the "changes" list 
-      * Using list indexes, maximum and minimum values from the "changes" list are associated with the first column of data in the csv file
-  
-  **PyPoll** is a python script written to analyze three columns of election data in a .csv file. The first column of data contains voter identification numbers, the second column contains voter county, and the third column contains candidates last names.  
-  
-  The **PyPoll** folder contains:
-  * An *Analysis* folder with a .txt file of summary outputs
-  * A *Resources* folder that contains the election_data.csv file used in this analysis 
-  * A python file titled *main.py*
-  
-    The *main.py* file in the **PyBank** folder:
-      * Creates a new list of unique candidate names from a series
-      * Calculates the total number of votes 
-        * Calculates the total and percentage of votes assinged to each candidate
-      * Creates a dictionary of candidate names and percentage of votes won 
-        * Uses the dictionary to identify the candidate with the greatest percentage of votes
+# Financial and Political Data Analysis 
+
+Interactive dashboard that displays charts and text from a JSON file. View the final product [here](https://klbowman.github.io/microbiome-dashboard/).
+
+## Description
+
+This repository is designed to visualize taxonomic data using charts, and display metadata in an organized panel. The [data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/) comes from a study that sequenced the microbiome of 153 human belly buttons (Hulcr et al., 2012), and is stored in the samples.json file. Individual samples are identified by a numerical code and accompanied by metadata including age, gender, ethnicity, etc. Operational taxonomic units (OTUs) id numbers and counts are provided for each sample.
+
+The dashboard includes a drop-down menu that displays the numerical code for each individual sample. When a sample is selected, the “Demographic Info” panel is populated with metadata and the following three charts are populated with data:
+* Bar graph displaying the top 10 OTUs by count
+* Gauge plot showing the belly button scrubs per week
+* Bubble plot displaying OTU counts for the entire sample
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/145615550-98e49162-44c9-4e39-9050-ba837dc42863.png" alt="Dashboard Image"/>
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74067302/145615561-5fc19f35-646b-47aa-9f63-4a93a495efe5.png" alt="Dashboard Image"/>
+</p>
+
+## Getting Started
+
+### Technologies Used 
+
+* JavaScript
+* HTML
+* CSS
+
+### Installing
+
+* Clone this repository to your desktop.
+* Navitage to the home directory and open index.html in your browser.
+
+### Data Sources
+
+* Hulcr J, Latimer AM, Henley JB, Rountree NR, Fierer N, et al. (2012) A Jungle in There: Bacteria in Belly Buttons are Highly Diverse, but Predictable. PLoS ONE 7(11): e47712. doi:10.1371/journal.pone.0047712 [Access Data](http://robdunnlab.com/projects/belly-button-biodiversity/results-and-data/)
+
+
+## Authors
+
+Katlin Bowman, PhD
+
+E: klbowman@ucsc.edu
+
+[LinkedIn](https://www.linkedin.com/in/katlin-bowman/)
   
